@@ -312,6 +312,8 @@
     }
 }
 
+
+
 @media (max-width: 1024px) {
     #subscription-form {
         max-width: 40%;
@@ -334,7 +336,6 @@
 
     
 }
-
 
 
 
@@ -458,7 +459,6 @@
 
 
 
-
 @media (max-width: 320px) {
 
     #disclaimer h2{
@@ -521,6 +521,9 @@
         margin-bottom: 1em;
     }
 }
+
+
+
 
 
 
