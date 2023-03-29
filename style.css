@@ -1,8 +1,5 @@
 @charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/*Variáveis*/
 
 :root {
     --primary: #EB1ccc;
@@ -18,8 +15,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Event form */
 
 #event-description{
     background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(img/hrz-5.jpg);
@@ -105,8 +100,6 @@
     opacity: 100%;
 }
 
-/* Section Benefits */
-
 #key-benefits h2{
     background-color: var(--secondary);
     text-align: center;
@@ -153,8 +146,6 @@
     background-image: url(img/sqr-3.jpg);
 }
 
-/*Event location*/
-
 #location{
     height: 400px;
     background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(img/hrz-1.jpg);
@@ -196,9 +187,6 @@
 #about-location p{
     line-height: 1.5em;
 }
-
-
-/* Event detail container */
 
 #details{
     width: 80%;
@@ -244,8 +232,6 @@
     font-weight: 600;
 }
 
-/* cta */
-
 #cta{
     height: 300px;
     background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(img/hrz-1.jpg);
@@ -271,8 +257,6 @@
     font-size: 1.2em;
 }
 
-/*Footer*/
-
 #footer{
     height: 250px;
     text-align: center;
@@ -296,9 +280,6 @@
     font-weight: bold;
 }
 
-
-/* Mobile */
-
 @media (max-width: 1440px) {
 
     #subscription-form{
@@ -311,8 +292,6 @@
         padding: 5em;
     }
 }
-
-
 
 @media (max-width: 1024px) {
     #subscription-form {
@@ -332,19 +311,13 @@
 
     .benefit p{
         font-size: .9em;
-    }
-
-    
+    } 
 }
-
-
 
 @media (max-width: 768px) {
     .btn{
         opacity: 100%;
     }
-
-    /* Event form */
 
     #event-description {
         flex-direction: column;
@@ -364,8 +337,6 @@
         margin-bottom: 2em;
     }
 
-    /* Benefits section*/
-
     .benefits{
         flex-direction: column;
         align-items: center;
@@ -377,8 +348,6 @@
         max-width: 100%;
         margin-bottom: 2em;
     }
-
-    /* Event location */
 
     #location{
         flex-direction: column;
@@ -413,8 +382,6 @@
         display: none;
     }
 
-    /*Event details container*/
-
     .detail{
         flex-direction: column;
         margin-bottom: .5em;
@@ -442,8 +409,6 @@
         order: 1;
     }
 
-    /*cta*/
-
     #cta{
         text-align: center;
     }
@@ -456,8 +421,6 @@
         width: 70%;
     }
 }
-
-
 
 @media (max-width: 320px) {
 
@@ -521,14 +484,3 @@
         margin-bottom: 1em;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
